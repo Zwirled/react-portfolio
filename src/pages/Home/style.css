@@ -1,6 +1,6 @@
 .introduction .row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 50px;
 }
 
@@ -23,6 +23,10 @@
 }
 
 @media only screen and (min-width: 980px) {
+    .introduction .row {
+        flex-direction: row;
+    }
+
     .introduction .row .col {
     width: 50%;
 }

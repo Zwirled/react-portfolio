@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "./style.css";
-import headShot from '../../images/headshot.webp';
+import headShot from '../../assets/images/headshot.webp';
 
 function Home() {
     return (
@@ -12,6 +12,7 @@ function Home() {
                         <p>
                             I'm a graphic designer & front-end website developer based in the North West, specialising in user-friendly, concept-driven designs for all platforms.
                         </p>
+                        <a href="/projects/">View projects</a>
                     </div>
                     <div class="col">
                         <div class="headshot">

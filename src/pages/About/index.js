@@ -1,20 +1,35 @@
 import React from "react";
+import Style from "./style.css";
 
 function About() {
     return (
-        <div>
-            <h1>About</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-                varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-                Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-                imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-                ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-                elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-                consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-                malesuada fames ac ante ipsum primis in faucibus.
-            </p>
-        </div>
+        <main>
+            <section class="about">
+                <div class="row">
+                    <div class="col">
+                        <h1>About me</h1>
+                        <p>
+                            A skilled graphic designer and front-end
+                            web developer with over 5 years of industry
+                            experience, adept at creating user-friendly,
+                            responsive, and accessible websites.
+                            Known for a strong work ethic, attention to
+                            detail, and effective communication and
+                            problem-solving abilities. Proven track record
+                            of delivering successful projects for clients
+                            from small businesses to PLCs across various
+                            industries such as technology, construction,
+                            and non-profit organisations. Strong project
+                            management and time management skills,
+                            with the ability to work well under pressure,
+                            and to take initiative and ownership of tasks.
+                        </p>
+                        <a href="/contact/">Get in touch</a>
+                    </div>
+
+                </div>
+            </section>
+        </main>
     );
 }
 

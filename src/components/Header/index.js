@@ -1,11 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Style from './style.css';
-import logo from '../../images/logo.svg'
+import logo from '../../assets/images/logo.svg'
 
 function Header() {
     const pages = [
-        { name: 'Home', path: '/', end: true },
         { name: 'About', path: '/about' },
         { name: 'Projects', path: '/projects' },
         { name: 'Contact', path: '/contact' },
@@ -16,7 +15,7 @@ function Header() {
             <div class="container">
                 <div class="row">
                     <div class="logo">
-                        <img src={logo} alt="Amelia Bramwell Logo"></img>
+                        <a href="/"><img src={logo} alt="Amelia Bramwell Logo"></img></a>
                     </div>
                     <nav>
                         <ul className="nav nav-tabs">
