@@ -1,7 +1,11 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './style.css';
 
 function CallToAction() {
+    const contact = [
+        { name: 'Contact', path: '/contact' },
+    ];
     return (
         <section class="call-to-action">
             <div class="row">
@@ -9,7 +13,9 @@ function CallToAction() {
                     <h2>Want to find out more? Get in touch!</h2>
                 </div>
                 <div class="col">
-                    <a href="/contact/">Get in touch</a>
+                    <NavLink to={contact[0].path}>
+                        Get in touch
+                    </NavLink>
                 </div>
             </div>
         </section>

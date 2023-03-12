@@ -25,7 +25,6 @@ function About() {
                             with the ability to work well under pressure,
                             and to take initiative and ownership of tasks.
                         </p>
-                        <a href="/contact/">Get in touch</a>
                     </div>
 
                 </div>

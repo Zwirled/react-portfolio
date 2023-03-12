@@ -19,7 +19,7 @@ function Contact() {
                     <div class="col">
                         <h1>Contact</h1>
                         <p>If you would like to get in touch, please use the below contact details, or alternatively you can fill out the form and I will get back to you as soon as I can.</p>
-                        <a href="mailto:bramwellamelia@gmail.com">bramwellamelia@gmail.com</a>
+                        <a href="mailto:bramwellamelia@gmail.com" target="_blank" rel="noopener noreferrer">bramwellamelia@gmail.com</a>
                         <ul className="socials">
                             {socials.map((link) => (
                                 <li className="nav-item" key={link.url}>
