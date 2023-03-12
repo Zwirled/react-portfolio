@@ -9,15 +9,15 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Header />
         <div class="container">
           <Routes>
-            <Route path="/react-portfolio/" element={<Home />} end={true} />
-            <Route path="/react-portfolio/about" element={<About />} />
-            <Route path="/react-portfolio/projects" element={<Projects />} />
-            <Route path="/react-portfolio/contact" element={<Contact />} />
+            <Route exact path="/" element={<Home />} end={true} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
         <Footer />

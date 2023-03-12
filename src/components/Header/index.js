@@ -5,6 +5,7 @@ import logo from '../../assets/images/logo.svg'
 
 function Header() {
     const pages = [
+        { name: 'Home', path: '/' },
         { name: 'About', path: '/about' },
         { name: 'Projects', path: '/projects' },
         { name: 'Contact', path: '/contact' },
@@ -15,7 +16,7 @@ function Header() {
             <div class="container">
                 <div class="row">
                     <div class="logo">
-                        <a href="/"><img src={logo} alt="Amelia Bramwell Logo"></img></a>
+                        <a href={pages[0].path}><img src={logo} alt="Amelia Bramwell Logo"></img></a>
                     </div>
                     <nav>
                         <ul className="nav nav-tabs">
