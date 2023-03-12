@@ -1,5 +1,5 @@
 import React from "react";
-import Style from "./style.css";
+import './style.css';
 import headShot from '../../assets/images/headshot.webp';
 
 function Home() {

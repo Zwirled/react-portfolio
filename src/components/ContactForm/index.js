@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './style.css';
 
 function ContactForm() {
     const [name, setName] = useState('');
@@ -17,6 +18,7 @@ function ContactForm() {
 
     return (
         <form onSubmit={handleSubmit}>
+            <div class="input">
             <label htmlFor="name">Name:</label>
             <input
                 type="text"
@@ -24,7 +26,9 @@ function ContactForm() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
-            />
+                />
+            </div>
+            <div class="input">
             <label htmlFor="email">Email:</label>
             <input
                 type="email"
@@ -33,13 +37,16 @@ function ContactForm() {
                 onChange={(e) => setEmail(e.target.value)}
                 required
             />
+            </div>
+            <div class="input">
             <label htmlFor="message">Message:</label>
             <textarea
                 id="message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
-            ></textarea>
+                ></textarea>
+            </div>
             <button type="submit">Submit</button>
         </form>
     );

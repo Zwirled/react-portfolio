@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectGallery from "../../components/ProjectGallery"
+import './style.css';
 
 function Projects() {
     return (

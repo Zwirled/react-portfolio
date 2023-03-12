@@ -1,0 +1,9 @@
+.contact .row {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.contact .row .col {
+    width: 50%;
+}

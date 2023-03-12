@@ -1,5 +1,6 @@
 import React from 'react';
 import projectData from '../../projectData.json';
+import './style.css';
 
 function Project(props) {
     const { title, deployedLink, githubLink, image } = props.data;

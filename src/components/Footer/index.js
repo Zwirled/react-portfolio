@@ -1,7 +1,7 @@
 import React from 'react';
-import Style from './style.css';
+import './style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fab, faTwitter, faInstagram, faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter, faInstagram, faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import cv from '../../assets/files/cv.pdf';
 
 
