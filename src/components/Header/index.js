@@ -16,7 +16,9 @@ function Header() {
             <div class="container">
                 <div class="row">
                     <div class="logo">
-                        <a href={pages[0].path}><img src={logo} alt="Amelia Bramwell Logo"></img></a>
+                        <NavLink to={pages[0].path}>
+                            <img src={logo} alt="Amelia Bramwell Logo" />
+                        </NavLink>
                     </div>
                     <nav>
                         <ul className="nav nav-tabs">
