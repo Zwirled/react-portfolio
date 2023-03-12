@@ -10,9 +10,11 @@ function Projects() {
                         <h1>Recent projects</h1>
                     </div>
                 </div>
-            </section>
-            <section>
-                <ProjectGallery />
+                <div class="row">
+                    <div class="col">
+                        <ProjectGallery />
+                    </div>
+                </div>
             </section>
         </main>
     );

@@ -1,11 +1,16 @@
 import React from 'react';
+import projectData from '../../projectData.json';
 import Project from '../Project';
 
 function ProjectGallery() {
     return (
-        <div>
-            <h1>This is the project gallery</h1>
-            <Project />
+        <div className="project-gallery">
+            {projectData.slice().reverse().map(project => (
+                <Project
+                    key={project.title}
+                    data={project}
+                />
+            ))}
         </div>
     );
 }

@@ -1,7 +1,15 @@
-function Project() {
+import React from 'react';
+import projectData from '../../projectData.json';
+
+function Project(props) {
+    const { title, deployedLink, githubLink, image } = props.data;
+
     return (
-        <div>
-            <h1>This is the project page</h1>
+        <div className="project">
+            <h3>{title}</h3>
+            <img src={image} alt={title} />
+            <p><a href={deployedLink} target="_blank" rel="noopener noreferrer">Link to Deployed Version</a></p>
+            <p><a href={githubLink} target="_blank" rel="noopener noreferrer">Link to GitHub Repository</a></p>
         </div>
     );
 }
