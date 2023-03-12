@@ -1,12 +1,15 @@
 import React from 'react';
 import Style from './style.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fab, faTwitter, faInstagram, faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+
 
 function Footer() {
     const socials = [
-        { name: 'Twitter', url: 'https://twitter.com/zwirled/', icon: 'x' },
-        { name: 'Instagram', url: 'https://www.instagram.com/zwirled/', icon: 'x' },
-        { name: 'LinkedIn', url: 'https://www.linkedin.com/in/zwirled/', icon: 'x' },
-        { name: 'GitHub', url: 'https://github.com/Zwirled/', icon: 'x' },
+        { name: 'Twitter', url: 'https://twitter.com/zwirled/', icon: faTwitter },
+        { name: 'Instagram', url: 'https://www.instagram.com/zwirled/', icon: faInstagram },
+        { name: 'LinkedIn', url: 'https://www.linkedin.com/in/zwirled/', icon: faLinkedinIn },
+        { name: 'GitHub', url: 'https://github.com/Zwirled/', icon: faGithub },
     ];
 
     return (
@@ -16,7 +19,7 @@ function Footer() {
                     {socials.map((link) => (
                         <li className="nav-item" key={link.url}>
                             <a href={link.url} className="nav-link" target="_blank" rel="noopener noreferrer">
-                                {link.name}
+                                <FontAwesomeIcon icon={link.icon} />
                             </a>
                         </li>
                     ))}
