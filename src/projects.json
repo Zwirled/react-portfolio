@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Code Refactor",
+        "deployedLink": "https://zwirled.github.io/code-refactor/",
+        "githubLink": "https://github.com/Zwirled/code-refactor",
+        "image": "#"
+    },
+    {
+        "title": "Portfolio",
+        "deployedLink": "https://zwirled.github.io/development-portfolio/",
+        "githubLink": "https://github.com/Zwirled/development-portfolio",
+        "image": "#"
+    },
+    {
+        "title": "Bootstrap Portfolio",
+        "deployedLink": "https://zwirled.github.io/bootstrap-portfolio/",
+        "githubLink": "https://github.com/Zwirled/bootstrap-portfolio",
+        "image": "#"
+    },
+    {
+        "title": "Console Finances",
+        "deployedLink": "https://zwirled.github.io/console-finances/",
+        "githubLink": "https://github.com/Zwirled/console-finances",
+        "image": "#"
+    },
+    {
+        "title": "Password Generator",
+        "deployedLink": "https://zwirled.github.io/password-generator/",
+        "githubLink": "https://github.com/Zwirled/password-generator",
+        "image": "#"
+    },
+    {
+        "title": "Code Quiz",
+        "deployedLink": "https://zwirled.github.io/code-quiz/",
+        "githubLink": "https://github.com/Zwirled/code-quiz",
+        "image": "#"
+    },
+    {
+        "title": "Planner App",
+        "deployedLink": "https://zwirled.github.io/planner-app/",
+        "githubLink": "https://github.com/Zwirled/planner-app",
+        "image": "#"
+    },
+    {
+        "title": "Weather Dashboard",
+        "deployedLink": "https://zwirled.github.io/weather-dashboard/",
+        "githubLink": "https://github.com/Zwirled/weather-dashboard",
+        "image": "#"
+    },
+    {
+        "title": "Movie / Cocktail Party",
+        "deployedLink": "https://resonantdevotion.github.io/MovieSlashCocktailParty/",
+        "githubLink": "https://github.com/ResonantDevotion/MovieSlashCocktailParty",
+        "image": "#"
+    }
+]
