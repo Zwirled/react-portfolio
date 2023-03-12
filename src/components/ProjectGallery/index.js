@@ -5,13 +5,15 @@ import './style.css';
 
 function ProjectGallery() {
     return (
-        <div className="project-gallery">
-            {projectData.slice().reverse().map(project => (
-                <Project
-                    key={project.title}
-                    data={project}
-                />
-            ))}
+        <div class="gallery">
+            <div class="card-container">
+                {projectData.slice().reverse().map(project => (
+                    <Project
+                        key={project.title}
+                        data={project}
+                    />
+                ))}
+            </div>
         </div>
     );
 }

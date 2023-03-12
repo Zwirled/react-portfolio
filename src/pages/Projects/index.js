@@ -13,9 +13,7 @@ function Projects() {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col">
-                        <ProjectGallery />
-                    </div>
+                    <ProjectGallery />
                 </div>
             </section>
             <CallToAction />
