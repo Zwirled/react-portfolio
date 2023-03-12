@@ -14,10 +14,10 @@ function App() {
         <Header />
         <div class="container">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="projects" element={<Projects />} />
-            <Route path="contact" element={<Contact />} />
+            <Route path="/react-portfolio/" element={<Home />} end={true} />
+            <Route path="/react-portfolio/about" element={<About />} />
+            <Route path="/react-portfolio/projects" element={<Projects />} />
+            <Route path="/react-portfolio/contact" element={<Contact />} />
           </Routes>
         </div>
         <Footer />
