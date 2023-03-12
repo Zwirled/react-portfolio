@@ -10,21 +10,28 @@ function Header() {
     ];
 
     return (
-        <ul className="nav nav-tabs">
-            {pages.map((page) => (
-                <li className="nav-item" key={page.path}>
-                    <NavLink
-                        to={page.path}
-                        end={page.end}
-                        className={({ isActive }) =>
-                            isActive ? 'nav-link active' : 'nav-link'
-                        }
-                    >
-                        {page.name}
-                    </NavLink>
-                </li>
-            ))}
-        </ul>
+        <header>
+            <div class="logo">
+                <img src="#" alt="Amelia Bramwell Logo" />
+            </div>
+            <nav>
+                <ul className="nav nav-tabs">
+                    {pages.map((page) => (
+                        <li className="nav-item" key={page.path}>
+                            <NavLink
+                                to={page.path}
+                                end={page.end}
+                                className={({ isActive }) =>
+                                    isActive ? 'nav-link active' : 'nav-link'
+                                }
+                            >
+                                {page.name}
+                            </NavLink>
+                        </li>
+                    ))}
+                </ul>
+            </nav>
+        </header>
     );
 }
 
