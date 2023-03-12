@@ -1,5 +1,6 @@
 import React from "react";
-import ProjectGallery from "../../components/ProjectGallery"
+import ProjectGallery from "../../components/ProjectGallery";
+import CallToAction from "../../components/CallToAction";
 import './style.css';
 
 function Projects() {
@@ -17,6 +18,7 @@ function Projects() {
                     </div>
                 </div>
             </section>
+            <CallToAction />
         </main>
     );
 }

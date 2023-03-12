@@ -1,0 +1,39 @@
+.call-to-action {
+    background-color: var(--olive);
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+.call-to-action .row {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.call-to-action .row .col h2 {
+    margin: 0;
+}
+
+.call-to-action .row .col a {
+    color: white;
+}
+
+@media only screen and (min-width: 550px) {
+    .call-to-action {
+            margin-bottom: 64px;
+        }
+}
+
+@media only screen and (min-width: 980px) {
+    .call-to-action {
+        margin-bottom: 120px;
+    }
+    
+    .call-to-action .row {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

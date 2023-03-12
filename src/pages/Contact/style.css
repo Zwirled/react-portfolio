@@ -7,3 +7,14 @@
 .contact .row .col {
     width: 50%;
 }
+
+.contact .row .col ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 0;
+}
+
+.contact .row .col ul li {
+    list-style-type: none;
+}

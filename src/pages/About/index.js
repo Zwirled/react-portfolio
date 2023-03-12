@@ -1,5 +1,6 @@
 import React from "react";
 import './style.css';
+import CallToAction from "../../components/CallToAction"
 
 function About() {
     return (
@@ -29,6 +30,7 @@ function About() {
 
                 </div>
             </section>
+            <CallToAction />
         </main>
     );
 }

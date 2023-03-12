@@ -1,4 +1,5 @@
 import React from "react";
+import CallToAction from "../../components/CallToAction"
 import './style.css';
 import headShot from '../../assets/images/headshot.webp';
 
@@ -22,6 +23,7 @@ function Home() {
 
                 </div>
             </section>
+            <CallToAction />
         </main>
     );
 }
