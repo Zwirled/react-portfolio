@@ -3,54 +3,54 @@
         "title": "Code Refactor",
         "deployedLink": "https://zwirled.github.io/code-refactor/",
         "githubLink": "https://github.com/Zwirled/code-refactor",
-        "image": "../projects/code-refractor.webp"
+        "image": "/projects/code-refractor.webp"
     },
     {
         "title": "Portfolio",
         "deployedLink": "https://zwirled.github.io/development-portfolio/",
         "githubLink": "https://github.com/Zwirled/development-portfolio",
-        "image": "../projects/development-portfolio.webp"
+        "image": "/projects/development-portfolio.webp"
     },
     {
         "title": "Bootstrap Portfolio",
         "deployedLink": "https://zwirled.github.io/bootstrap-portfolio/",
         "githubLink": "https://github.com/Zwirled/bootstrap-portfolio",
-        "image": "../projects/bootstrap-portfolio.webp"
+        "image": "/projects/bootstrap-portfolio.webp"
     },
     {
         "title": "Console Finances",
         "deployedLink": "https://zwirled.github.io/console-finances/",
         "githubLink": "https://github.com/Zwirled/console-finances",
-        "image": "../projects/console-finances.webp"
+        "image": "/projects/console-finances.webp"
     },
     {
         "title": "Password Generator",
         "deployedLink": "https://zwirled.github.io/password-generator/",
         "githubLink": "https://github.com/Zwirled/password-generator",
-        "image": "../projects/password-generator.webp"
+        "image": "/projects/password-generator.webp"
     },
     {
         "title": "Code Quiz",
         "deployedLink": "https://zwirled.github.io/code-quiz/",
         "githubLink": "https://github.com/Zwirled/code-quiz",
-        "image": "../projects/code-quiz.webp"
+        "image": "/projects/code-quiz.webp"
     },
     {
         "title": "Planner App",
         "deployedLink": "https://zwirled.github.io/planner-app/",
         "githubLink": "https://github.com/Zwirled/planner-app",
-        "image": "../projects/planner-app.webp"
+        "image": "/projects/planner-app.webp"
     },
     {
         "title": "Weather Dashboard",
         "deployedLink": "https://zwirled.github.io/weather-dashboard/",
         "githubLink": "https://github.com/Zwirled/weather-dashboard",
-        "image": "../projects/weather-dashboard.webp"
+        "image": "/projects/weather-dashboard.webp"
     },
     {
         "title": "Movie / Cocktail Party",
         "deployedLink": "https://resonantdevotion.github.io/MovieSlashCocktailParty/",
         "githubLink": "https://github.com/ResonantDevotion/MovieSlashCocktailParty",
-        "image": "../projects/movie-slash-cocktail-party.webp"
+        "image": "/projects/movie-slash-cocktail-party.webp"
     }
 ]
