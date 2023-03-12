@@ -1,11 +1,12 @@
 import React from 'react';
+import Style from './style.css';
 
 function Footer() {
     const socials = [
-        { name: 'Twitter', url: 'https://twitter.com/zwirled/' },
-        { name: 'Instagram', url: 'https://www.instagram.com/zwirled/' },
-        { name: 'LinkedIn', url: 'https://www.linkedin.com/in/zwirled/' },
-        { name: 'GitHub', url: 'https://github.com/Zwirled/' },
+        { name: 'Twitter', url: 'https://twitter.com/zwirled/', icon: 'x' },
+        { name: 'Instagram', url: 'https://www.instagram.com/zwirled/', icon: 'x' },
+        { name: 'LinkedIn', url: 'https://www.linkedin.com/in/zwirled/', icon: 'x' },
+        { name: 'GitHub', url: 'https://github.com/Zwirled/', icon: 'x' },
     ];
 
     return (
