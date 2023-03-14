@@ -6,13 +6,13 @@ import './style.css';
 function Projects() {
     return (
         <main>
-            <section class="projects">
-                <div class="row">
-                    <div class="col">
+            <section className="projects">
+                <div className="row">
+                    <div className="col">
                         <h1>Recent projects</h1>
                     </div>
                 </div>
-                <div class="row">
+                <div className="row">
                     <ProjectGallery />
                 </div>
             </section>

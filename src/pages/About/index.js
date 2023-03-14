@@ -5,9 +5,9 @@ import CallToAction from "../../components/CallToAction"
 function About() {
     return (
         <main>
-            <section class="about">
-                <div class="row">
-                    <div class="col">
+            <section className="about">
+                <div className="row">
+                    <div className="col">
                         <h1>About me</h1>
                         <p>
                             A skilled graphic designer and front-end

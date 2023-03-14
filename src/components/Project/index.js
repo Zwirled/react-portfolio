@@ -6,11 +6,11 @@ function Project(props) {
 
     return (
         <div className="project">
-            <div class="image">
+            <div className="image">
                 <img src={process.env.PUBLIC_URL + image} alt={title} />
-                <div class="content">
+                <div className="content">
                     <h3>{title}</h3>
-                    <div class="links">
+                    <div className="links">
                         <a href={deployedLink} target="_blank" rel="noopener noreferrer">Live</a>
                         <a href={githubLink} target="_blank" rel="noopener noreferrer">Repo</a>
                     </div>

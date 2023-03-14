@@ -15,10 +15,10 @@ function Footer() {
 
     return (
         <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="cv">
+            <div className="container">
+                <div className="row">
+                    <div className="col">
+                        <div className="cv">
                             <a href={cv} target="_blank">Download CV</a>
                         </div>
                         <nav>
@@ -33,8 +33,8 @@ function Footer() {
                             </ul>
                         </nav>
                     </div>
-                    <div class="col">
-                        <div class="copyright">
+                    <div className="col">
+                        <div className="copyright">
                             <p>&copy; 2023. All Rights Reserved.</p>
                         </div>
                     </div>

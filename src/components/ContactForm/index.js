@@ -18,7 +18,7 @@ function ContactForm() {
 
     return (
         <form onSubmit={handleSubmit}>
-            <div class="input">
+            <div className="input">
             <label htmlFor="name">Name:</label>
             <input
                 type="text"
@@ -28,7 +28,7 @@ function ContactForm() {
                 required
                 />
             </div>
-            <div class="input">
+            <div className="input">
             <label htmlFor="email">Email:</label>
             <input
                 type="email"
@@ -38,7 +38,7 @@ function ContactForm() {
                 required
             />
             </div>
-            <div class="input">
+            <div className="input">
             <label htmlFor="message">Message:</label>
             <textarea
                 id="message"

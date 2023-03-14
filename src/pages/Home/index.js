@@ -10,9 +10,9 @@ function Home() {
     ];
     return (
         <main>
-            <section class="introduction">
-                <div class="row">
-                    <div class="col">
+            <section className="introduction">
+                <div className="row">
+                    <div className="col">
                         <h1>Hello, I'm Amelia Bramwell.</h1>
                         <p>
                             I'm a graphic designer & front-end website developer based in the North West, specialising in user-friendly, concept-driven designs for all platforms.
@@ -21,8 +21,8 @@ function Home() {
                             View projects
                         </NavLink>
                     </div>
-                    <div class="col">
-                        <div class="headshot">
+                    <div className="col">
+                        <div className="headshot">
                             <img src={headShot} alt="Head Shot of Amelia Bramwell"></img>
                         </div>
                     </div>

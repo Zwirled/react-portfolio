@@ -12,7 +12,7 @@ function App() {
     <Router basename="/react-portfolio">
       <div>
         <Header />
-        <div class="container">
+        <div className="container">
           <Routes>
             <Route exact path="/" element={<Home />} end={true} />
             <Route path="/about" element={<About />} />

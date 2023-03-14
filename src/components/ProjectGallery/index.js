@@ -5,8 +5,8 @@ import './style.css';
 
 function ProjectGallery() {
     return (
-        <div class="gallery">
-            <div class="card-container">
+        <div className="gallery">
+            <div className="card-container">
                 {projectData.slice().reverse().map(project => (
                     <Project
                         key={project.title}

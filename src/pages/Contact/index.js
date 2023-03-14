@@ -14,9 +14,9 @@ function Contact() {
 
     return (
         <main>
-            <section class="contact">
-                <div class="row">
-                    <div class="col">
+            <section className="contact">
+                <div className="row">
+                    <div className="col">
                         <h1>Contact</h1>
                         <p>If you would like to get in touch, please use the below contact details, or alternatively you can fill out the form and I will get back to you as soon as I can.</p>
                         <a href="mailto:bramwellamelia@gmail.com" target="_blank" rel="noopener noreferrer">bramwellamelia@gmail.com</a>
@@ -30,8 +30,8 @@ function Contact() {
                             ))}
                         </ul>
                     </div>
-                    <div class="col">
-                        <div class="form">
+                    <div className="col">
+                        <div className="form">
                             <ContactForm />
                         </div>
                     </div>

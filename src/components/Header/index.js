@@ -13,9 +13,9 @@ function Header() {
 
     return (
         <header>
-            <div class="container">
-                <div class="row">
-                    <div class="logo">
+            <div className="container">
+                <div className="row">
+                    <div className="logo">
                         <NavLink to={pages[0].path}>
                             <img src={logo} alt="Amelia Bramwell Logo" />
                         </NavLink>
